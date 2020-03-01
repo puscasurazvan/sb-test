@@ -1,0 +1,16 @@
+.avatar-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  font-weight: bold;
+  width: 210px;
+  margin: 20px;
+
+  &__image {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: rgb(219, 219, 219);
+  }
+}

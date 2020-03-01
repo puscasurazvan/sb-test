@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+.App {
+  display: flex;
+  justify-content: center;
+  margin: 10% auto;
+  align-items: center;
+  font-family: 'Lato';
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px 5px #d4d4d4;
+  width: 700px;
+  height: 500px;
+  .left {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+  }
+}
